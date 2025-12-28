@@ -9,8 +9,6 @@
 
 > *«Счастливы те, кто умеет меняться вместе со временем. Несчастны те, кто по своей природе на это не способен.»*
 
----
-
 <a name="en"></a>
 ## 🇺🇸 Description (EN)
 This repository contains my solutions for the exercises from Eric Matthes's book **"Python Crash Course"**.  
