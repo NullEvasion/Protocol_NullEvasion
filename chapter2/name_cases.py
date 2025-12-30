@@ -42,7 +42,10 @@ print(message)
 2.7. Удаление пропусков: сохраните имя пользователя в переменной. Добавьте в начале
 и в конце имени несколько пропусков. Проследите за тем, чтобы каждая служебная
 последовательность, "\t" и "\n", встречались по крайней мере один раз.
+Выведите имя, чтобы были видны пропуски в начале и конце строки. Затем выведите его снова
+с использованием каждой из функций удаления пропусков: lstrip(),rstrip() и strip().
 '''
-nick=' risotto nero '
-text=f"\n-Giorno: I... I known you, {nick.upper().lstrip().rstrip()}!\n-Risotto: Baka, you fell into my trap ... METALLICA!\n\t*Giorno found himself behind Risotto*\n-Giorno: You fool :) GOLD EXPERIENCE!\n\t*MUDA MUDA MUDA MUDA MUDA MUDA*"
+nick='\n   risotto nero   '
+print(nick)
+text=f"\n-Giorno: I... I known you, {nick.upper().lstrip().rstrip()}!\n-{nick.title().strip()}: Baka, you fell into my trap ... METALLICA!\n\t*Giorno found himself behind Risotto*\n-Giorno: You fool :) GOLD EXPERIENCE!\n\t*MUDA MUDA MUDA MUDA MUDA MUDA*"
 print(text)
