@@ -1,9 +1,3 @@
-'''
-Author       : NullEvasion
-Date         : 02.01.2026
-'''
-
-
 # Protocol_NullEvasion
 
 <a name="ru"></a>
