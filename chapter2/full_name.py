@@ -1,3 +1,10 @@
+'''
+Author       : NullEvasion
+Date         : 28.12.2025
+'''
+
+
+
 first_name="ada"
 last_name="lovelace"
 full_name=f"{first_name} {last_name}"
