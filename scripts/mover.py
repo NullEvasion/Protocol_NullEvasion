@@ -1,3 +1,10 @@
+'''
+Author       : NullEvasion
+Date         : 29.12.2025
+'''
+
+
+
 import os
 import shutil
 import time
