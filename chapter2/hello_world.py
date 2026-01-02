@@ -1,3 +1,10 @@
+'''
+Author       : NullEvasion
+Date         : 28.12.2025
+'''
+
+
+
 print("Hello Python world!")
 
 message="Hello Python world!"
