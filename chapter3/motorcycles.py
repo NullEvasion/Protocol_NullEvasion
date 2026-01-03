@@ -150,3 +150,38 @@ print(f"Привет {guests[0].title()}, приглашение ещё в си�
 print(f"Привет {guests[1].title()}, приглашение ещё в силе, не волнуйся")
 del guests[0], guests[0]
 print(guests)
+
+
+
+#Trying to call IndexError to end Chapter 3
+'''
+motorcycles=['honda','yamaha','suzuki']
+print(motorcycles[3])
+print(motorcycles[-1])
+motorcycles=[]
+print(motorcycles[-1])
+'''
+
+
+
+'''
+3.11. Намеренная ошибка: если ни в одной из предшествующих программ вы ещё не
+сталкивались с ошибками игдексирования, попробуйте создать такую ошибку искусственно.
+Измените индекс в одной из программ, чтобы вызвать ошибку индексирования. Не забудьте
+исправить ошибку перед тем, как закрыть программу.
+'''
+'''
+print("")
+guests=[]
+guests.append('рэй')
+guests.append('аска')
+guests.append('мисато')
+print(guests[3])
+'''
+'''
+Traceback (most recent call last):
+  File "/home/super/Protocol_NullEvasion/chapter3/motorcycles.py", line 176, in <module>
+    print(guests[3])
+          ~~~~~~^^^
+IndexError: list index out of range
+'''
