@@ -1,6 +1,7 @@
 '''
 Author       : NullEvasion
 Date         : 04.01.2026
+Last edit	 : 05.01.2026
 '''
 
 
@@ -25,6 +26,7 @@ print("Thank you, everyone. That was a great magic show!")
 	Таким образом, вывод должен состоять из трёх (и более) строк с названиями пиццы
 	и дополнительного сообщения - скажем, "I really love pizza!".
 '''
+print(f"\n---4.1---")
 pizzas=[]
 pizzas.append('domashnyaya')
 pizzas.insert(-1, 'pepperoni')
@@ -43,7 +45,7 @@ print(f"Hey, Mr. White, i really love this {len(pizzas)} pizzas on your roof!")
 	 Добавьте в конец программы строку с описанием общего свойства. Например, можно
 	вывести сообщение "Any of these animals would make a great pet!".
 '''
-print("")
+print(f"\n---4.2---")
 pets=[]
 pets.append('Мозазавр')
 pets.append('Плезиозавр')
