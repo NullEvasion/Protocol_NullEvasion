@@ -1,6 +1,7 @@
 '''
 Author       : NullEvasion
 Date         : 29.12.2025
+Last edit	 : 05.01.2026
 '''
 
 
