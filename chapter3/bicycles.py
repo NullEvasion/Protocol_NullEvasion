@@ -1,6 +1,7 @@
 '''
 Author       : NullEvasion
 Date         : 02.01.2026
+Last edit	 : 05.01.2026
 '''
 
 
@@ -24,7 +25,7 @@ print(message)
 3.1. Имена: сохраните имена нескольких своих друзей в списке с именем names. Выведите
 имя каждого друга, обратившись к каждому элементу списка (по одному за раз).
 '''
-print("")
+print(f"\n---3.1---")
 names=['michelle','brevnovka']
 print(names[-1].title())
 print(names[0].title())
@@ -36,7 +37,7 @@ print(names[0].title())
 имени каждого человека выведите сообщение. Основной текст для всех сообщений должен 
 быть одинаковым, но каждое сообщение должнол включать имя адресата.
 '''
-print("")
+print(f"\n---3.2---")
 names=['michelle','brevnovka']
 print(f"Hello {names[0].title()}, how are you? Are you tired of working in Turtle Bay?")
 print(f"Sup {names[-1].title()}! What's poppin' in Rome?")
@@ -48,7 +49,7 @@ print(f"Sup {names[-1].title()}! What's poppin' in Rome?")
 или машины) и создайте список с примерами. Используйте свой список для вывода
 утверждений об элементах типа: "Я хотел бы купить мотоцикл Honda"
 '''
-print("")
+print(f"\n---3.3---")
 transport=['Т-90М «Прорыв»','Ка-52 «Аллигатор»','Хромая блоха']
 print(f"Хотел бы заехать в цирк на - {transport[-3]}")
 print(f"Какой классный вертолёт - {transport[1]}. Думаю отличная идея - пролететь в нём, на низкой высоте, над центром города!")
