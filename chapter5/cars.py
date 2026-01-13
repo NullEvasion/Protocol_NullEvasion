@@ -1,0 +1,27 @@
+'''
+Author       : NullEvasion
+Date         : 13.01.2026
+Last edit    : 13.01.2026
+'''
+
+
+
+
+cars = ['audi', 'bmw', 'subaru', 'toyota']
+for car in cars:
+    if car == 'bmw':
+        print(car.upper())
+    else:
+        print(car.title())
+
+car='bmw'
+print(car == 'bmw')
+
+car='audi'
+print(car == 'bmw')
+
+car='Audi'
+print(car == 'audi')
+
+car='Audi'
+print(car.lower() == 'audi')
