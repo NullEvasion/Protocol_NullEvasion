@@ -23,5 +23,4 @@ print(car == 'bmw')
 car='Audi'
 print(car == 'audi')
 
-car='Audi'
 print(car.lower() == 'audi')
